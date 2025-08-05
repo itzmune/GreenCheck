@@ -1,0 +1,51 @@
+{
+  "diseases": {
+    "early_blight": {
+      "name": "Early Blight",
+      "scientific_name": "Alternaria solani",
+      "type": "fungal",
+      "affected_crops": ["tomatoes", "potatoes", "eggplant", "peppers"],
+      "symptoms": [
+        "Dark brown spots with concentric rings on leaves",
+        "Yellowing and browning of lower leaves",
+        "Stem lesions with dark centers"
+      ],
+      "conditions": {
+        "temperature": "75-85°F",
+        "humidity": "High humidity (>90%)",
+        "moisture": "Wet conditions for extended periods"
+      },
+      "prevention": [
+        "Use resistant varieties",
+        "Ensure good air circulation",
+        "Avoid overhead watering",
+        "Remove plant debris"
+      ],
+      "organic_treatments": ["copper_fungicide", "neem_oil"],
+      "synthetic_treatments": ["chlorothalonil", "mancozeb"]
+    },
+    "powdery_mildew": {
+      "name": "Powdery Mildew",
+      "scientific_name": "Various species",
+      "type": "fungal",
+      "affected_crops": ["grapes", "cucumbers", "roses", "beans", "peas"],
+      "symptoms": [
+        "White powdery coating on leaves",
+        "Yellowing and curling of leaves",
+        "Stunted growth"
+      ],
+      "conditions": {
+        "temperature": "68-78°F",
+        "humidity": "Moderate to high humidity",
+        "moisture": "Dry conditions with high humidity"
+      },
+      "prevention": [
+        "Plant resistant varieties",
+        "Ensure good air circulation",
+        "Avoid overhead watering"
+      ],
+      "organic_treatments": ["neem_oil", "baking_soda_spray"],
+      "synthetic_treatments": ["propiconazole", "myclobutanil"]
+    }
+  }
+}

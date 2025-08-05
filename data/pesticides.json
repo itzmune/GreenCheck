@@ -1,0 +1,48 @@
+{
+  "organic_pesticides": {
+    "neem_oil": {
+      "name": "Neem Oil",
+      "type": "organic",
+      "active_ingredient": "Azadirachtin",
+      "target_pests": ["aphids", "whiteflies", "spider_mites", "thrips"],
+      "target_diseases": ["powdery_mildew", "black_spot", "rust"],
+      "application_rate": "2-4 tablespoons per gallon of water",
+      "frequency": "Every 7-14 days",
+      "safety_rating": "very_safe",
+      "pre_harvest_interval": "0 days",
+      "crops": ["tomatoes", "peppers", "cucumbers", "roses"],
+      "cost_per_gallon": 25.00,
+      "effectiveness_rating": 8.5
+    },
+    "copper_fungicide": {
+      "name": "Copper-based Fungicide", 
+      "type": "organic",
+      "active_ingredient": "Copper sulfate",
+      "target_pests": [],
+      "target_diseases": ["blight", "bacterial_spot", "downy_mildew", "leaf_spot"],
+      "application_rate": "1-2 tablespoons per gallon of water",
+      "frequency": "Every 7-14 days",
+      "safety_rating": "moderately_safe",
+      "pre_harvest_interval": "1 day",
+      "crops": ["tomatoes", "potatoes", "grapes", "citrus"],
+      "cost_per_gallon": 30.00,
+      "effectiveness_rating": 8.0
+    }
+  },
+  "synthetic_pesticides": {
+    "chlorothalonil": {
+      "name": "Chlorothalonil",
+      "type": "synthetic", 
+      "active_ingredient": "Chlorothalonil",
+      "target_pests": [],
+      "target_diseases": ["blight", "leaf_spot", "anthracnose", "rust"],
+      "application_rate": "Follow label instructions",
+      "frequency": "Every 7-14 days",
+      "safety_rating": "use_with_caution",
+      "pre_harvest_interval": "7-14 days",
+      "crops": ["tomatoes", "potatoes", "peanuts", "turf"],
+      "cost_per_gallon": 40.00,
+      "effectiveness_rating": 9.0
+    }
+  }
+}
