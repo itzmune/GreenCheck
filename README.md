@@ -35,3 +35,29 @@ With a user-friendly interface and powerful ML models, GreenCheck enables smarte
 
 ## 📂 Project Structure
 
+project/
+├── backend/
+│ ├── app.py
+│ ├── routes/
+│ │ ├── api.py
+│ │ └── upload.py
+│ ├── models/
+│ │ ├── soil_classifier.pkl
+│ │ └── plant_disease_recog_model_pwp.keras
+│ ├── utils/
+│ │ ├── image_processing.py
+│ │ └── pesticide_recommender.py
+│ └── data/
+│ ├── plant_diseases.json
+│ └── pesticides.json
+├── frontend/
+│ ├── public/
+│ │ └── index.html
+│ └── src/
+│ ├── components/
+│ │ ├── SoilForm.jsx
+│ │ ├── DiseaseUpload.jsx
+│ │ ├── PesticideForm.jsx
+│ │ └── ResultCard.jsx
+│ └── services/
+│ └── api.js
